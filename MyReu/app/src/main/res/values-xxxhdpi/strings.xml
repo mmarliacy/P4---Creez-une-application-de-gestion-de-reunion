@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name"><font size="20">My Reu</font></string>
+    <string name="Add_a_meeting">Créer une réunion</string>
+    <string name="item_spinner">item_spinner</string>
+    <string name="meeting_condition">Reunion A - 14h00 - Peach</string>
+    <string name="mails_participants">sophiacompt@mareu.fr, jean-P.25@mareu.fr,caroline.fN@mareu.fr, olivia.santoniT@mareu.fr, z.Gill34@mareu.fr,Sophiane.Cato@mareu.fr</string>
+    <string name="delete_button">Supprimer réunion</string>
+    <string name="meeting_subject">Sujet</string>
+    <string name="enter_meeting_subject">Renseignez le sujet de la réunion</string>
+    <string name="meeting_place">Lieu</string>
+    <string name="enter_meeting_place">Lieu de la réunion</string>
+    <string name="meeting_time">Heure</string>
+    <string name="enter_meeting_time">Heure de la réunion</string>
+    <string name="meeting_participants">Participants</string>
+    <string name="enter_meeting_participants">Ajoutez des participants</string>
+    <string name="meeting_time_hint_large">Renseignez l\'/heure de la réunion</string>
+    <string name="enter_meeting_time_large"><font size="60sp">"Renseignez l\'heure de la réunion "</font></string>
+    <string name="meeting_place_theme">Lieu \:</string>
+    <string name="information_meeting_subject">Réunion A</string>
+    <string name="meeting_time_theme">Heure \: </string>
+    <string name="information_meeting_time"> \14h00</string>
+    <string name="meeting_information_place"> \Peach</string>
+    <string name="create_participant_btn">Ajouter</string>
+    <string name="add_participants_btn">Ajouter un participant</string>
+    <string name="dropdown_menu_icon">dropdown_menu_icon</string>
+    <string name="date">17-\08-\2020</string>
+    <string name="select_meeting_date">Date de la réunion</string>
+    <string name="meeting_date">Date</string>
+    <string name="filtrer_par_date">Filtrer par date</string>
+    <string name="filtrer_par_lieu">Filtrer par lieu</string>
+    <string name="effacer_les_filtres">Effacer les filtres</string>
+    <string name="Modifier">Modifier</string>
+    <string name="meeting_date_theme">Date \:</string>
+    <string name="example">Example</string>
+    <string name="search">Search</string>
+    <string name="item_subject">Réunion A</string>
+    <string name="score1">-</string>
+    <string name="item_time">17:00</string>
+    <string name="score">-</string>
+    <string name="item_room">Peach</string>
+    <string name="item_icon_room">icone</string>
+</resources>

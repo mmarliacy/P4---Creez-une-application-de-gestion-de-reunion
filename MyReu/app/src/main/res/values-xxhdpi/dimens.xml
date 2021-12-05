@@ -1,0 +1,294 @@
+<resources>
+    ------------------------------------------------------------------------------------------------
+    -------------------------------------*** PORTRAIT MODE ***--------------------------------------
+    ------------------------------------------------------------------------------------------------
+    //-- MYREU ACTIVITY (RECYCLER VIEW) -->>
+        ---** Floating Action Button **---
+            Id --> createReu_Btn
+                <dimen name="margin_fab">16dip</dimen>
+                <dimen name="fab_custom_size">70dip</dimen>
+                <dimen name="max_image_size">35dip</dimen>
+
+    //-- MYREU ITEM -->>
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="marginStartLeft_item_icon_room">10dip</dimen>
+                <dimen name="margin_item_icon_room">10dip</dimen>
+                <dimen name="width_item_icon_room">60dip</dimen>
+                <dimen name="height_item_icon_room">60dip</dimen>
+
+        ---** LinearLayout **---
+            Id --> item_meeting
+                <dimen name="marginStartLeft_item_meeting">10dip</dimen>
+
+        ---** TextView **---
+            Id --> item_meeting_subject, item_meeting_time,
+            item_meeting_room, item_meeting_participants
+                <dimen name="height_item_meeting">25dip</dimen>
+                <dimen name="text_size_item_meeting">18sp</dimen>
+            Id --> score1,score2
+                <dimen name="marginSLER_score">3dip</dimen>
+
+        ---** ImageButton **---
+            Id --> deleteBtn
+                <dimen name="delete_button_width">30dip</dimen>
+                <dimen name="delete_button_height">30dip</dimen>
+                <dimen name="delete_button_margin">20dip</dimen>
+
+    //-- ADD_REU ACTIVITY -->>
+
+        ---** TextInputLayout(TIL) // TextInputEditText(TIE) // AutoCompleteTextView(ACT) **---
+            Id --> add_subject_txf_edit, add_time_txf_edit
+                <dimen name="height_text_input_layout">55dip</dimen>
+                <dimen name="text_size_text_input_layout">13sp</dimen>
+                <dimen name="marginTop_text_input_layout">5dip</dimen>
+        --------------------------------
+            Id --> add_place_txf
+                <dimen name="marginStartLeft_text_input_layout">10dip</dimen>
+            Id --> act_add_place
+        --------------------------------
+            Id --> add_date_txf
+                <dimen name="marginEndRight_text_input_layout">10dip</dimen>
+            Id --> add_date_edit
+        --------------------------------
+            Id --> add_participants_txf
+                <dimen name="height_participants_text_input_layout">300dip</dimen>
+            Id --> add_participants_edit
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="width_add_reu_icon_room">80dip</dimen>
+                <dimen name="height_add_reu_icon_room">80dip</dimen>
+                <dimen name="margin_start_add_reu_icon_room">10dip</dimen>
+
+        ---** ImageButton **---
+            Id --> add_participants_btn
+                <dimen name="add_participant_btn_width">50dip</dimen>
+                <dimen name="add_participant_btn_height">50dip</dimen>
+                <dimen name="marginTop_add_participant_btn">5dip</dimen>
+
+        ---** ChipGroup **---
+            Id --> chip_group_add_bloc
+                <dimen name="height_chip_group">150dip</dimen>
+
+        ---** Button **---
+            Id --> addReu_Btn
+                <dimen name="height_add_button">55dip</dimen>
+                <dimen name="size_text_add_button">15sp</dimen>
+
+    //-- MYREU INFORMATIONS ACTIVITY -->>
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="width_myreu_info_icon_room">150dip</dimen>
+                <dimen name="height_myreu_info_icon_room">150dip</dimen>
+                <dimen name="margin_myreu_info_icon_room">10dip</dimen>
+
+        ---** Linear Layout **---
+            Id --> linear_lyt_1
+                <dimen name="height_linear_layout1">170dip</dimen>
+            Id --> linear_lyt_4
+                <dimen name="width_linear_layout4">150dip</dimen>
+                <dimen name="height_linear_layout4">30dip</dimen>
+                <dimen name="marginTop_linear_layout4">15dip</dimen>
+            Id --> linear_lyt_2
+                <dimen name="marginTop_linear_layout2">15dip</dimen>
+            Id --> linear_lyt_3
+                <dimen name="marginTop_linear_layout3">15dip</dimen>
+
+        ---** TextView **---
+            Id --> myReu_subject
+                <dimen name="marginTop_myReu_subject">15dp</dimen>
+                <dimen name="text_size_myReu_subject">30sp</dimen>
+            Id --> place_theme
+                <dimen name="marginSLER_place">5dp</dimen>
+                <dimen name="text_size_meeting_conditions">20sp</dimen>
+            Id --> meeting_place
+            Id --> date_theme
+            Id --> meeting_date
+            Id --> time_theme
+            Id --> myReu_time
+            Id --> participants_theme
+                <dimen name="marginStartLeft_participants_theme">20dip</dimen>
+                <dimen name="marginTop_participants_theme">15dip</dimen>
+                <dimen name="text_size_participants_theme">25sp</dimen>
+            Id --> participants_mails
+                <dimen name="marginSLER_participants_mails">20dip</dimen>
+                <dimen name="marginBottom_participants_mails">20dip</dimen>
+                <dimen name="text_size_participants_mails">18sp</dimen>
+
+        ---** View **---
+            Id --> line_in_square1
+                <dimen name="height_line_in_square_1">2dip</dimen>
+                <dimen name="marginSLER_line_in_square_1">20dip</dimen>
+                <dimen name="marginTop_line_in_square_1">10dip</dimen>
+            Id --> line_in_square2
+                <dimen name="height_line_in_square_2">0.5dip</dimen>
+                <dimen name="marginSLER_line_in_square2">20dip</dimen>
+                <dimen name="marginTop_line_in_square2">5dip</dimen>
+                <dimen name="marginBottom_line_in_square2">5dip</dimen>
+
+    //-- DROP DOWN MENU ITEM -->>
+
+        ---** TextView **---
+            Id --> tv_ddm_item
+                <dimen name="text_size_ddm_item">20sp</dimen>
+                <dimen name="padding_ddm_item">20dip</dimen>
+                <dimen name="drawable_padding_ddm_item">10dip</dimen>
+                <dimen name="marginStartLeft_ddm_item">20dip</dimen>
+
+    //-- CHIP ITEM -->>
+
+        ---** Chip **---
+            Id --> chip_item
+                <dimen name="width_chip_item">130dip</dimen>
+                <dimen name="height_chip_item">50dip</dimen>
+                <dimen name="text_size_chip_item">15sp</dimen>
+
+    ------------------------------------------------------------------------------------------------
+    -------------------------------------*** LANDSCAPE MODE ***-------------------------------------
+    ------------------------------------------------------------------------------------------------
+
+    //-- MYREU ACTIVITY (RECYCLER VIEW) -->>
+
+        ---** Floating Action Button **---
+            Id --> createReu_Btn
+                <dimen name="margin_fab_land">16dip</dimen>
+                <dimen name="fab_custom_size_land">70dip</dimen>
+                <dimen name="max_image_size_land">35dip</dimen>
+
+    //-- MYREU ITEM -->>
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="marginStartLeft_item_icon_room_land">10dip</dimen>
+                <dimen name="margin_item_icon_room_land">10dip</dimen>
+                <dimen name="width_item_icon_room_land">50dip</dimen>
+                <dimen name="height_item_icon_room_land">50dip</dimen>
+
+        ---** LinearLayout **---
+            Id --> item_meeting
+                <dimen name="marginStartLeft_item_meeting_land">10dip</dimen>
+
+        ---** TextView **---
+            Id --> item_meeting_subject,item_meeting_time,
+            score2, item_meeting_room, item_meeting_participants
+                <dimen name="height_item_meeting_land">22dip</dimen>
+                <dimen name="text_size_item_meeting_land">18sp</dimen>
+            Id --> score1,score2
+                <dimen name="marginSLER_score_land">5dip</dimen>
+
+        ---** ImageButton **---
+            Id --> deleteBtn
+                <dimen name="delete_button_width_land">30dip</dimen>
+                <dimen name="delete_button_height_land">30dip</dimen>
+                <dimen name="delete_button_margin_land">20dip</dimen>
+
+    //-- ADD_REU ACTIVITY -->>
+
+        ---** TextInputLayout(TIL) // TextInputEditText(TIE) // AutoCompleteTextView(ACT) **---
+            Id --> add_subject_txf_edit, add_time_txf_edit
+                <dimen name="height_text_input_layout_land">50dip</dimen>
+                <dimen name="text_size_text_input_layout_land">13sp</dimen>
+                <dimen name="marginTop_text_input_layout_land">2dip</dimen>
+        --------------------------------
+            Id --> add_place_txf
+                <dimen name="marginStartLeft_text_input_layout_land">10dip</dimen>
+            Id --> act_add_place
+        --------------------------------
+            Id --> add_date_txf
+                <dimen name="marginEndRight_text_input_layout_land">10dip</dimen>
+            Id --> add_date_edit
+        --------------------------------
+            Id --> add_participants_txf
+                <dimen name="width_participants_text_input_layout_land">550dip</dimen>
+            Id --> add_participants_edit
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="width_add_reu_icon_room_land">80dip</dimen>
+                <dimen name="height_add_reu_icon_room_land">80dip</dimen>
+                <dimen name="margin_start_add_reu_icon_room_land">10dip</dimen>
+
+        ---** ImageButton **---
+            Id --> add_participants_btn
+                <dimen name="add_participant_btn_width_land">50dip</dimen>
+                <dimen name="add_participant_btn_height_land">50dip</dimen>
+                <dimen name="marginTop_add_participant_btn_land">5dip</dimen>
+
+        ---** ChipGroup **---
+            Id --> chip_group_add_bloc
+                <dimen name="height_chip_group_land">40dip</dimen>
+
+        ---** Button **---
+            Id --> addReu_Btn
+                <dimen name="height_add_button_land">50dip</dimen>
+                <dimen name="size_text_add_button_land">15sp</dimen>
+
+    //-- MYREU INFORMATIONS ACTIVITY -->>
+
+        ---** ImageView **---
+            Id --> icon_room
+                <dimen name="width_myreu_info_icon_room_land">130dip</dimen>
+                <dimen name="height_myreu_info_icon_room_land">130dip</dimen>
+                <dimen name="margin_myreu_info_icon_room_land">10dip</dimen>
+        ---** Linear Layout **---
+            Id --> linear_lyt_1
+                <dimen name="height_linear_layout1_land">150dip</dimen>
+            Id --> linear_lyt_4
+                <dimen name="width_linear_layout4_land">150dip</dimen>
+                <dimen name="height_linear_layout4_land">30dip</dimen>
+                <dimen name="marginTop_linear_layout4_land">10dip</dimen>
+            Id --> linear_lyt_2
+                <dimen name="marginTop_linear_layout2_land">5dip</dimen>
+            Id --> linear_lyt_3
+                <dimen name="marginTop_linear_layout3_land">5dip</dimen>
+        ---** TextView **---
+            Id --> myReu_subject
+                <dimen name="marginTop_myReu_subject_land">15dp</dimen>
+                <dimen name="text_size_myReu_subject_land">30sp</dimen>
+            Id --> place_theme
+                <dimen name="marginSLER_place_land">5dp</dimen>
+                <dimen name="text_size_meeting_conditions_land">22sp</dimen>
+            Id --> meeting_place
+            Id --> date_theme
+            Id --> meeting_date
+            Id --> time_theme
+            Id --> myReu_time
+            Id --> participants_theme
+                <dimen name="marginStartLeft_participants_theme_land">20dip</dimen>
+                <dimen name="marginTop_participants_theme_land">15dip</dimen>
+                <dimen name="text_size_participants_theme_land">20sp</dimen>
+            Id --> participants_mails
+                <dimen name="marginSLER_participants_mails_land">20dip</dimen>
+                <dimen name="marginBottom_participants_mails_land">20dip</dimen>
+                <dimen name="text_size_participants_mails_land">16sp</dimen>
+
+        ---** View **---
+            Id --> line_in_square1
+                <dimen name="height_line_in_square_1_land">2dip</dimen>
+                <dimen name="marginSLER_line_in_square_1_land">20dip</dimen>
+                <dimen name="marginTop_line_in_square_1_land">5dip</dimen>
+            Id --> line_in_square2
+                <dimen name="height_line_in_square_2_land">0.5dip</dimen>
+                <dimen name="marginSLER_line_in_square2_land">20dip</dimen>
+                <dimen name="marginTop_line_in_square2_land">5dip</dimen>
+                <dimen name="marginBottom_line_in_square2_land">5dip</dimen>
+
+    //-- DROP DOWN MENU ITEM -->>
+        ---** TextView **---
+            Id --> tv_ddm_item
+                <dimen name="text_size_ddm_item_land">20sp</dimen>
+                <dimen name="padding_ddm_item_land">20dip</dimen>
+                <dimen name="drawable_padding_ddm_item_land">10dip</dimen>
+                <dimen name="marginStartLeft_ddm_item_land">20dip</dimen>
+
+    //-- CHIP ITEM -->>
+
+        ---** Chip **---
+            Id --> chip_item
+                <dimen name="width_chip_item_land">130dip</dimen>
+                <dimen name="height_chip_item_land">50dip</dimen>
+                <dimen name="text_size_chip_item_land">15sp</dimen>
+</resources>

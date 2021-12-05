@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/meeting_informations">
+
+    <ImageView
+        android:id="@+id/icon_room"
+        android:layout_width="@dimen/width_myreu_info_icon_room"
+        android:layout_height="@dimen/height_myreu_info_icon_room"
+        android:layout_margin="@dimen/margin_myreu_info_icon_room"
+        android:contentDescription="@string/item_icon_room"
+        android:src="@drawable/ic_baseline_stars_24"
+        app:layout_constraintBottom_toTopOf="@id/linear_lyt_1"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toTopOf="@id/guideline_horizontal_1"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <LinearLayout
+        android:id="@+id/linear_lyt_1"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_linear_layout1"
+        android:background="@drawable/round_shape"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linear_lyt_3"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@+id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@+id/icon_room">
+
+        <TextView
+            android:id="@+id/myReu_subject"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTop_myReu_subject"
+            android:text="@string/information_meeting_subject"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/text_size_myReu_subject" />
+
+        <View
+            android:id="@+id/line_in_square1"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_in_square_1"
+            android:layout_marginStart="@dimen/marginSLER_line_in_square_1"
+            android:layout_marginLeft="@dimen/marginSLER_line_in_square_1"
+            android:layout_marginTop="@dimen/marginTop_line_in_square_1"
+            android:layout_marginEnd="@dimen/marginSLER_line_in_square_1"
+            android:layout_marginRight="@dimen/marginSLER_line_in_square_1"
+            android:background="@color/line" />
+
+
+        <LinearLayout
+            android:id="@+id/linear_lyt_4"
+            android:layout_width="@dimen/width_linear_layout4"
+            android:layout_height="@dimen/height_linear_layout4"
+            android:background="@drawable/round_shape_3"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/marginTop_linear_layout4"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@id/linear_lyt_1"
+            app:layout_constraintStart_toStartOf="@id/linear_lyt_1"
+            app:layout_constraintTop_toTopOf="@id/linear_lyt_1">
+
+        <TextView
+            android:id="@+id/place_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="@dimen/marginSLER_place"
+            android:layout_marginRight="@dimen/marginSLER_place"
+            android:gravity="end"
+            android:text="@string/meeting_place_theme"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/text_size_meeting_conditions"
+             />
+
+        <TextView
+            android:id="@+id/meeting_place"
+            android:layout_weight="1"
+            android:gravity="start"
+            android:layout_marginStart="@dimen/marginSLER_place"
+            android:layout_marginLeft="@dimen/marginSLER_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meeting_information_place"
+            android:textSize="@dimen/text_size_meeting_conditions" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear_lyt_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginTop_linear_layout2"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+            app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+            app:layout_constraintTop_toBottomOf="@id/line_in_square1">
+
+            <TextView
+                android:id="@+id/date_theme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.6"
+                android:gravity="end"
+                android:text="@string/meeting_date_theme"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_meeting_conditions" />
+
+            <TextView
+                android:id="@+id/meeting_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.9"
+                android:gravity="start"
+                android:text="@string/meeting_date"
+                android:textSize="@dimen/text_size_meeting_conditions" />
+
+            <TextView
+                android:id="@+id/time_theme"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:gravity="end"
+                android:text="@string/meeting_time_theme"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_meeting_conditions" />
+
+            <TextView
+                android:id="@+id/myReu_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:gravity="start"
+                android:text="@string/information_meeting_time"
+                android:textSize="@dimen/text_size_meeting_conditions" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_lyt_3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/marginTop_linear_layout3"
+        android:background="@drawable/round_shape_2"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_2"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@id/linear_lyt_1">
+
+        <TextView
+            android:id="@+id/participants_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginStartLeft_participants_theme"
+            android:layout_marginLeft="@dimen/marginStartLeft_participants_theme"
+            android:layout_marginTop="@dimen/marginTop_participants_theme"
+            android:text="@string/meeting_participants"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/text_size_participants_theme" />
+
+        <View
+            android:id="@+id/line_in_square2"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_line_in_square_2"
+            android:layout_marginStart="@dimen/marginSLER_line_in_square2"
+            android:layout_marginLeft="@dimen/marginSLER_line_in_square2"
+            android:layout_marginEnd="@dimen/marginSLER_line_in_square2"
+            android:layout_marginRight="@dimen/marginSLER_line_in_square2"
+            android:layout_marginBottom="@dimen/marginBottom_line_in_square2"
+            android:layout_marginTop="@dimen/marginTop_line_in_square2"
+            android:background="@color/sky_blue" />
+
+        <TextView
+            android:id="@+id/participants_mails"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/marginSLER_participants_mails"
+            android:layout_marginLeft="@dimen/marginSLER_participants_mails"
+            android:layout_marginEnd="@dimen/marginSLER_participants_mails"
+            android:layout_marginRight="@dimen/marginSLER_participants_mails"
+            android:layout_marginBottom="@dimen/marginBottom_participants_mails"
+            android:text="@string/mails_participants"
+            android:textColor="@color/black_title"
+            android:textSize="@dimen/text_size_participants_mails" />
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.98" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.02" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

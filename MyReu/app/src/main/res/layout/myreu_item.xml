@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/icon_room"
+        android:layout_width="@dimen/width_item_icon_room"
+        android:layout_height="@dimen/height_item_icon_room"
+        android:layout_margin="@dimen/margin_item_icon_room"
+        android:layout_marginStart="@dimen/marginStartLeft_item_icon_room"
+        android:layout_marginLeft="@dimen/marginStartLeft_item_icon_room"
+        android:contentDescription="@string/item_icon_room"
+        android:src="@drawable/ic_baseline_stars_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/item_meeting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginStartLeft_item_meeting"
+        android:layout_marginLeft="@dimen/marginStartLeft_item_meeting"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/deleteBtn"
+        app:layout_constraintStart_toEndOf="@+id/icon_room"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/item_meeting_conditions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/item_meeting_subject"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_meeting"
+                android:text="@string/item_subject"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_item_meeting"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/score1"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_meeting"
+                android:layout_marginStart="@dimen/marginSLER_score"
+                android:layout_marginLeft="@dimen/marginSLER_score"
+                android:layout_marginEnd="@dimen/marginSLER_score"
+                android:layout_marginRight="@dimen/marginSLER_score"
+                android:text="@string/score"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_item_meeting"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_meeting_time"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_meeting"
+                android:text="@string/item_time"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_item_meeting"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/score2"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_meeting"
+                android:layout_marginStart="@dimen/marginSLER_score"
+                android:layout_marginLeft="@dimen/marginSLER_score"
+                android:layout_marginEnd="@dimen/marginSLER_score"
+                android:layout_marginRight="@dimen/marginSLER_score"
+                android:text="@string/score"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_item_meeting"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/item_meeting_room"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/height_item_meeting"
+                android:text="@string/item_room"
+                android:textColor="@color/black_title"
+                android:textSize="@dimen/text_size_item_meeting"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_meeting_participants"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/height_item_meeting"
+            android:text="@string/mails_participants"
+            android:textColor="@color/grey_title"
+            android:textSize="@dimen/text_size_item_meeting" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/item_date"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/date"
+        app:layout_constraintEnd_toStartOf="@id/deleteBtn"
+        app:layout_constraintStart_toEndOf="@id/item_meeting"
+        app:layout_constraintTop_toTopOf="@id/item_meeting" />
+
+    <ImageButton
+        android:id="@+id/deleteBtn"
+        android:layout_width="@dimen/delete_button_width"
+        android:layout_height="@dimen/delete_button_height"
+        android:layout_margin="@dimen/delete_button_margin"
+        android:background="@drawable/ic_baseline_delete_24"
+        android:contentDescription="@string/delete_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/item_meeting"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

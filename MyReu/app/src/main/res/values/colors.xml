@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#9981F1</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#000000</color>
+    <color name="black_title">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_title">#636363</color>
+    <color name="background_meeting">#BCBCBC</color>
+    <color name="line">#F9F7FC</color>
+    <color name="theme_information">#03A9F4</color>
+    <color name="sky_blue">#ACE5FF</color>
+    <color name="red">#992118</color>
+</resources>

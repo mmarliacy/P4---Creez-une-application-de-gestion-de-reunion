@@ -1,0 +1,12 @@
+<com.google.android.material.chip.Chip
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/chip_item"
+    style="@style/Widget.MaterialComponents.Chip.Entry"
+    app:chipIcon="@drawable/ic_baseline_person_24"
+    app:closeIcon="@drawable/ic_baseline_clear_24"
+    android:text="@string/example"
+    android:layout_width="@dimen/width_chip_item_land"
+    android:layout_height="@dimen/height_chip_item_land"
+    android:textSize="@dimen/text_size_chip_item_land">
+</com.google.android.material.chip.Chip>

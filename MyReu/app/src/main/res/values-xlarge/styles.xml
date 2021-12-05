@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextAppearance.CustomStyle" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">25sp</item>
+        <item name="helperTextTextColor">@color/purple_700</item>
+    </style>
+
+    <style name="TextAppearance.CustomStyle.land" parent="Base.TextAppearance.AppCompat.Body1">
+        <item name="android:textSize">25sp</item>
+        <item name="helperTextTextColor">@color/purple_700</item>
+    </style>
+
+</resources>

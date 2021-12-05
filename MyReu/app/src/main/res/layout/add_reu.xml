@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_subject_txf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="@string/meeting_subject"
+        app:helperText="@string/enter_meeting_subject"
+        app:helperTextEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.CustomStyle"
+        app:helperTextTextAppearance="@style/TextAppearance.CustomStyle"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal_1"
+        app:layout_constraintVertical_chainStyle="spread">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_subject_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_input_layout"
+            android:textSize="@dimen/text_size_text_input_layout" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageView
+        android:id="@+id/icon_room"
+        android:layout_width="@dimen/width_add_reu_icon_room"
+        android:layout_height="@dimen/height_add_reu_icon_room"
+        android:layout_marginStart="@dimen/margin_start_add_reu_icon_room"
+        android:layout_marginLeft="@dimen/margin_start_add_reu_icon_room"
+        android:contentDescription="@string/dropdown_menu_icon"
+        android:src="@drawable/ic_baseline_stars_24"
+        app:layout_constraintBottom_toBottomOf="@id/add_place_txf"
+        app:layout_constraintStart_toEndOf="@id/add_place_txf"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toTopOf="@id/add_place_txf" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_place_txf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_text_input_layout"
+        android:layout_marginStart="@dimen/marginStartLeft_text_input_layout"
+        android:layout_marginLeft="@dimen/marginStartLeft_text_input_layout"
+        android:hint="@string/meeting_place"
+        app:helperText="@string/enter_meeting_place"
+        app:helperTextEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.CustomStyle"
+        app:helperTextTextAppearance="@style/TextAppearance.CustomStyle"
+        app:layout_constraintBottom_toTopOf="@id/add_time_txf"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_vertical_2"
+        app:layout_constraintStart_toEndOf="@+id/icon_room"
+        app:layout_constraintTop_toBottomOf="@+id/add_subject_txf"
+        app:startIconDrawable="@drawable/ic_baseline_place_24">
+
+        <AutoCompleteTextView
+            android:id="@+id/act_add_place"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_input_layout"
+            android:background="@null"
+            android:inputType="none"
+            android:textSize="@dimen/text_size_text_input_layout"
+            tools:ignore="LabelFor" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_date_txf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/marginEndRight_text_input_layout"
+        android:layout_marginRight="@dimen/marginEndRight_text_input_layout"
+        android:hint="@string/meeting_date"
+        android:weightSum="3"
+        app:helperText="@string/select_meeting_date"
+        app:helperTextEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.CustomStyle"
+        app:helperTextTextAppearance="@style/TextAppearance.CustomStyle"
+        app:layout_constraintEnd_toStartOf="@id/add_time_txf"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintStart_toEndOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toTopOf="@id/add_time_txf"
+        app:startIconDrawable="@drawable/ic_baseline_event_24"
+        tools:ignore="UsingOnClickInXml">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_date_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_input_layout"
+            android:inputType="none"
+            android:textSize="@dimen/text_size_text_input_layout" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_time_txf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/marginEndRight_text_input_layout"
+        android:layout_marginLeft="@dimen/marginEndRight_text_input_layout"
+        android:layout_marginTop="@dimen/marginTop_text_input_layout"
+        android:hint="@string/meeting_time"
+        app:helperText="@string/enter_meeting_time"
+        app:helperTextEnabled="true"
+        app:errorTextAppearance="@style/TextAppearance.CustomStyle"
+        app:helperTextTextAppearance="@style/TextAppearance.CustomStyle"
+        app:layout_constraintBottom_toTopOf="@id/add_participants_txf"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toEndOf="@id/add_date_txf"
+        app:layout_constraintTop_toBottomOf="@id/add_place_txf"
+        app:startIconDrawable="@drawable/ic_baseline_access_time_24">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_time_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_text_input_layout"
+            android:layout_weight="2"
+            android:inputType="none"
+            android:textSize="@dimen/text_size_text_input_layout" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/add_participants_txf"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="@dimen/width_participants_text_input_layout"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_text_input_layout"
+        android:gravity="top"
+        android:hint="@string/enter_meeting_participants"
+        app:errorTextAppearance="@style/TextAppearance.CustomStyle"
+        app:layout_constraintBottom_toTopOf="@+id/chip_group_add_bloc"
+        app:layout_constraintStart_toStartOf="@+id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@+id/add_time_txf">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/add_participants_edit"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="@dimen/text_size_text_input_layout" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <ImageButton
+        android:id="@+id/add_participants_btn"
+        android:layout_width="@dimen/add_participant_btn_width"
+        android:layout_height="@dimen/add_participant_btn_height"
+        android:layout_marginTop="@dimen/marginTop_add_participant_btn"
+        android:background="@color/grey_title"
+        android:contentDescription="@string/add_participants_btn"
+        android:src="@drawable/ic_baseline_add_24"
+        app:layout_constraintBottom_toBottomOf="@+id/add_participants_txf"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_vertical_2"
+        app:layout_constraintStart_toEndOf="@+id/add_participants_txf"
+        app:layout_constraintTop_toTopOf="@+id/add_participants_txf" />
+
+
+    <com.google.android.material.chip.ChipGroup
+        android:id="@+id/chip_group_add_bloc"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_chip_group"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline_horizontal_3"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@id/add_participants_txf" />
+
+    <Button
+        android:id="@+id/addReu_Btn"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/height_add_button"
+        android:text="@string/Add_a_meeting"
+        android:textSize="@dimen/size_text_add_button"
+        app:backgroundTint="@color/theme_information"
+        app:layout_constraintBottom_toBottomOf="@id/guideline_horizontal_2"
+        app:layout_constraintEnd_toEndOf="@id/guideline_vertical_2"
+        app:layout_constraintStart_toStartOf="@id/guideline_vertical_1"
+        app:layout_constraintTop_toBottomOf="@id/guideline_horizontal_3" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.05" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_vertical_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.025" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.985" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_horizontal_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.85" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

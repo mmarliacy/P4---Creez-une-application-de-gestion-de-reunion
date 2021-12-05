@@ -1,0 +1,18 @@
+<TextView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tv_ddm_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/meeting_place_theme"
+    android:textColor="@color/black_title"
+    android:textSize="@dimen/text_size_ddm_item_land"
+    android:padding="@dimen/padding_ddm_item_land"
+    android:layout_marginLeft="@dimen/marginStartLeft_ddm_item_land"
+    android:layout_marginStart="@dimen/marginStartLeft_ddm_item_land"
+    android:textStyle="bold"
+    android:drawablePadding="@dimen/drawable_padding_ddm_item_land"
+    app:drawableLeftCompat="@drawable/ic_baseline_place_24"
+    app:drawableStartCompat="@drawable/ic_baseline_place_24">
+
+</TextView>

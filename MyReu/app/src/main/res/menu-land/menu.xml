@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/menu_id">
+
+    <item
+        android:id="@+id/filter_by_place"
+        android:title="@string/filtrer_par_lieu"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/filter_by_date"
+        android:title="@string/filtrer_par_date"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/display_all"
+        android:title="@string/effacer_les_filtres"
+        app:showAsAction="never"/>
+
+</menu>

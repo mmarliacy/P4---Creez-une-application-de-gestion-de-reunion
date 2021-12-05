@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_item.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_item_small.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_large.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_large_land.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_normal.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_xlarge.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/circle_xlarge_land.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/ic_baseline_add_24_large.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/round_shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/round_shape_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/drawable/vector.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-land/add_reu.xml" value="0.40945945945945944" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-land/myreu_activity.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-land/myreu_item.xml" value="0.3625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-land/myreu_recyclerview_fragment.xml" value="0.3625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large-land/add_reu.xml" value="0.4" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large-land/myreu_activity.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large-land/myreu_informations.xml" value="0.5796875" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large-land/myreu_item.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large-land/myreu_recyclerview_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large/add_reu.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large/myreu_activity.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large/myreu_informations.xml" value="0.38125" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large/myreu_item.xml" value="0.536" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-large/myreu_recyclerview_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-normal-land/myreu_informations.xml" value="0.4" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-normal/myreu_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-normal/myreu_informations.xml" value="0.536" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small-land/add_reu.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small-land/myreu_activity.xml" value="0.8800000000000001" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small-land/myreu_informations.xml" value="0.38645833333333335" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small-land/myreu_item.xml" value="0.43963963963963965" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small/add_reu.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small/myreu_activity.xml" value="1.6" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small/myreu_informations.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small/myreu_item.xml" value="1.0" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-small/myreu_recyclerview_fragment.xml" value="0.72" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-v21/add_reu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge-land/add_reu.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge-land/myreu_activity.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge-land/myreu_informations.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge-land/myreu_item.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge-land/myreu_recyclerview_fragment.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge/add_reu.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge/myreu_activity.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge/myreu_informations.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge/myreu_item.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout-xlarge/myreu_recyclerview_fragment.xml" value="0.3625" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout/add_reu.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout/myreu_activity.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout/myreu_item.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AndroidStudioProjects/MyReu/app/src/main/res/layout/myreu_recyclerview_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/AppData/Local/Android/Sdk/platforms/android-28/data/res/layout-xlarge/activity_list.xml" value="0.536" />
+        <entry key="..\:/Users/Mel/AppData/Local/Android/Sdk/platforms/android-28/data/res/layout/alert_dialog.xml" value="0.6" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable-hdpi/ic_baseline_add_24.xml" value="0.10357142857142858" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable-xxhdpi/round_shape.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable-xxhdpi/round_shape_2.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/circle.xml" value="0.8208333333333333" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/circle_item.xml" value="0.26615384615384613" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/circle_large.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/circle_normal.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_clear_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_event_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_menu_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_place_24.xml" value="0.26614583333333336" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_baseline_stars_24.xml" value="0.1453125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_launcher_background.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/round_shape.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/round_shape_2.xml" value="1.621875" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/drawable/round_shape_3.xml" value="0.2703125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/add_reu.xml" value="0.1524390243902439" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/chip_item.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/dropdown_menu_item.xml" value="0.31666666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/myreu_activity.xml" value="0.4166666666666667" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/myreu_informations.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/myreu_item.xml" value="0.4" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/myreu_recyclerview_activity.xml" value="0.2" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-land/myreu_recyclerview_fragment.xml" value="0.41510416666666666" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-large/add_reu.xml" value="0.38125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-large/myreu_informations.xml" value="0.38125" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-xlarge-land/add_reu.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-xlarge-land/myreu_informations.xml" value="0.29938650306748466" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-xlarge/add_reu.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-xlarge/myreu_activity.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout-xlarge/myreu_informations.xml" value="0.190625" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/add_reu.xml" value="0.4" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/chip_item.xml" value="0.536" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/dropdown_item.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/dropdown_menu_item.xml" value="0.25" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/myreu_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/myreu_informations.xml" value="0.264" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/myreu_item.xml" value="0.4" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/myreu_recyclerview_activity.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/myreu_recyclerview_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/layout/nothing.xml" value="0.22395833333333334" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/menu-land/menu.xml" value="0.29009009009009007" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/menu/menu_modify_reu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/MyReu/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/Mel/Documents/OC_PROJETS/P4_MARLIACY_MELANIE/MyReu/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="EntryPointsManager">
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="org.greenrobot.eventbus.Subscribe" />
+    </list>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
+  </component>
+</project>
